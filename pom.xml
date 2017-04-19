@@ -34,6 +34,14 @@
     		</dependency>
 
 	</dependencies>
+	
+	<scm>
+      		<connection>scm:git:git@github.com:valerybriz/test-storm.git</connection>
+      		<url>scm:git:git@github.com:valerybriz/test-storm.git</url>
+      		<developerConnection>scm:git:git@github.com:valerybriz/test-storm.git</developerConnection>
+    	</scm>
+
+
 	<repositories> 
       		<repository> 
         		<id>clojars.org</id> 
@@ -54,6 +62,11 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			<plugin>
+			      <groupId>org.apache.maven.plugins</groupId>
+			      <artifactId>maven-release-plugin</artifactId>
+			      <version>2.5.3</version>
+		        </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
