@@ -1,0 +1,5 @@
+Bundle-Name: test
+Bundle-SymbolicName: deltatracking.storm
+Bundle-Version: 1.0-SNAPSHOT
+ConfigurationPath: /configuration
+Include-Resource: configuration=src/main/resources/configuration

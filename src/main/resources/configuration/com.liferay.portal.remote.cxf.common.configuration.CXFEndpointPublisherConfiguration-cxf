@@ -1,0 +1,2 @@
+contextPath=/test
+authVerifierProperties=auth.verifier.BasicAuthHeaderAuthVerifier.urls.includes=*

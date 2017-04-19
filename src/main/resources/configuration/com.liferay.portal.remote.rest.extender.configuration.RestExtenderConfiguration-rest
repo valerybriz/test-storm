@@ -1,0 +1,2 @@
+contextPaths=/test
+jaxRsServiceFilterStrings=(component.name=deltatracking.storm.application.stormtestApplication)
